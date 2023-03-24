@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{margin: 0; font-family: 'Poppins', sans-serif;}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+header{
+    background-color: #8F43EE;
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: #F7C04A;
+    font-size: 300%;
+    margin-top: 20px;
+    border: 3.5px dashed #3F497F;
+    padding: 0 20px 0 20px;
+    border-radius: 50px;
+}
+main{
+    flex: 10;
+    display: flex;
+    flex-direction: column;
+}
+.principal{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #8F43EE;
+    flex: 8;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.esquerdo, .direito{
+    width: 40%;
+    height: 60%;
+    background-image: linear-gradient(to right, #42047e , #07f49e);;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 2px solid #F8F5E4;
+}
+.direito{
+    height: 73%;
+}
+dd{
+    margin-left: 20px;
+}
+dt, dd, li{
+    color: #F8F5E4;
+}
+
+.bottom{
+    width: 100%;
+    background-color: #8F43EE;
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+button{
+    width: 200px;
+    height: 75px;
+    border-radius: 10px;
+    background-color: #F7C04A;
+    font-size: large;
+    font-weight: bolder;
+    margin-right: 29rem;
+    border: 3px inset #42047e;
+}
+button:hover{
+    background-color: #FFDD83;
+    text-decoration: underline;
+}
+#senac{
+    width: 179.5px;
+    height: 105.5px;
+    margin-right: 20px;
+    margin-top: 70px;
+}
+#vacina{
+    width: 300px;
+    height: 200px;
+    margin-right: 12rem;
+    border-radius: 60px;
+}
+h2{
+    color: #F7C04A;
+}
